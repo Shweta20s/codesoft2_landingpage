@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.min.css" integrity="sha512-lvaVbvmbHhG8cmfivxLRhemYlTT60Ly9Cc35USrpi8/m+Lf/f/T8x9kEIQq47cRj1VQIFuxTxxCcvqiQeQSHjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+ <title>Document</title>
+</head>
+<body>
+   <section class="sec" id="page-1">
+         <div class="top">
+         <div class="top-left"> 
+               <span><i class='fa fa-phone'></i> 98539860938603</span>
+               <span><i class='fa fa-envelope'></i> kjsndskjfnwskjgnskjgns</span>
+         </div>
+         </div>
+         <div class="middle"> 
+            <nav class="navvvv">
+                  <div class="toggle-btn">
+                     <label for="toggle">
+                           <div class="container" onclick="myFunction(this)">
+                              <div class="bar1"></div>
+                              <div class="bar2"></div>
+                              <div class="bar3"></div>
+                           </div>
+                     </label>
+                  </div>
+                  <input type="checkbox" id="toggle">
+                  <ul>
+                     <div class="logo">Gather & Graze</div>  
+                     <li><a href="#page-1">HOME</a></li>
+                     <li><a href="#page-2">BOOKING</a></li>
+                     <li><a href="#page-3">MENU</a></li>
+                     <li><a href="#page-4">ABOUT US</a></li>
+                     <li><a href="#page-5">GALLERY</a></li>
+                     <li><a href="#page-6">CONTACT</a></li>
+                  </ul>
+            </nav>
+         </div>
+      </div>
+   </section>
+  
+
+   <section class="sec-1" id="sec1">
+      <div class="parallax-imgs">
+         <div class="header-data" id="mainh">
+            <h1 class="welcom-msg">WELCOME TO <span>GATHER & GRAZE</span></h1>
+            <p>Our menu is filled with hearty, homemade dishes made from fresh ingredients, and our team is here to make you feel right at home.</p>
+            <button>Book</button>
+         </div>
+         <img id="one" src="img/mainpage1.png">
+         <img id="two" src="img/mainpage2.png">
+         <img id="three" src="img/mainpag7.png">
+         <img id="four" src="img/mainpage4.png">
+         <img id="five" src="img/mainpage6.png">
+      </div>
+   </section>
+
+
+ <!------------------------------------------------- start Booking-------------------------------------------->
+   <section class="book" id="page-2">
+      <p data-aos="slide-up">------ &#8734; ------ For any request or reservation, please do not hesitate to ask us ------ &#8734; ------</p>
+         <div class="book-data" data-aos="zoom-in-up">
+              <div class="book-detail">
+                  <img src="img/bookk_img.jpg">
+               </div>
+               <div class="book-form">
+                    <form method="post"  id="sample_form"  name="conatact-form">
+                        <h1>Book a Table Online</h1><br>
+                        <div class="input-fields">
+                        <input type="text" name="name" id="f_name" placeholder="Name" autocomplete="off" class="form_data"><br>
+                        <span></span>
+                        </div>
+                        <div class="input-fields">
+                        <input type="email" name="email" id="ee-mail" placeholder="E-Mail" class="form_data" >
+                        <input type="datetime-local" name="Phone" id="Num" placeholder="Phone" class="form_data" ><br>
+                        </div>
+                        <div class="input-fields">
+                           <textarea name="Message" id="msg" row="20" col="6" placeholder="Request" class="form_data"></textarea><br>
+                        </div>
+                        <button type="button" id="submit" name="submit">BOOK TABLE</button>
+                        <div id="error_msg"></div>
+                        <div id="sucess_msg"></div>
+                   </form>
+              </div>   
+         </div>
+   </section>  
+ <!-------------------------------------------------End Booking-------------------------------------------->
+ 
+   <div class="partition">
+      <div class="img-container">
+         <img src="img/01.jpg">
+         <img src="img/02.jpg">
+         <img src="img/03.jpg">
+         <img src="img/04.jpg">
+      </div>
+   </div>
+
+
+<!-------------------------------------------------Start of menu section-------------------------------------------->
+   <section class="seccc" id="page-3">
+      <div class="container">
+         <div class="text-center " >
+            <p class="text-center" data-aos="slide-up">----- &#8734; -------------------- &#8734; -------------------- Magical View And Style -------------------- &#8734; -------------------- &#8734; -----</p>
+            <h1 class=" Menu-head" data-aos="slide-up" > Our <span class=" text-uppercase menu-head2">Special Menu</span></h1>
+           
+         </div>
+         <div class="section-cards">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/drinks/drink1.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/snack/snack2.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/indianfood/ifood3.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/snack/snack4.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/all5.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/all7.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/indianfood/ifood2.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+                  <div class="col-md-6 col-lg-3" data-aos="slide-up">
+                     <div class="card">
+                        <div class="card-image">
+                        <a hre=""><img src="img/drinks/drink3.jpg" class="img-fluid"></a>
+                        </div>
+                        <div class="content">
+                           <h6 class="card-caption d-flex justify-content-between">
+                              <p class="text-align Item" >Spicy Coconut Salmon</p>
+                              <p class="text-center price">$20</p>
+                           </h6>
+                           <p class="text-center">-----------&hearts;&hearts;-----------</p>
+                        </div>
+                     </div>  
+                  </div>
+               </div>
+            </div>
+         </div>
+     </div>
+   </section>
+<!-------------------------------------------------End of menu section-------------------------------------------->
+
+
+
+ <!-------------------------------------------------Start of About us-------------------------------------------->
+   <section class="sec-2" id="page-4">
+         <div class="about-details">
+            <div class="data ">
+               <div class="mainhead" data-aos="slide-right"  duration="100" offset="300">WHY GATHER & GRAZE ?</div>
+               <div class="line" data-aos="slide-right" > </div>
+               <p class="" data-aos="slide-right" ><span>Welcome to Gather & Graze</span> where great food meets a relaxed and friendly atmosphere.
+                     We’re here because we believe that the best meals are shared with good company in a place that feels like home.</p>
+               <br>
+               <p data-aos="slide-right"  > We started <span> Gather & Graze </span> with a vision to create a welcoming spot where you can enjoy 
+                  delicious comfort food and create lasting memories. Our menu is filled with hearty, homemade dishes made 
+                  from fresh ingredients, and our team is here to make you feel right at home.</p>
+               <br>
+               <p data-aos="slide-right" >
+                  The founders, [Founder’s Name(s)] always dreamed of opening a place where people could come together to 
+                  enjoy hearty, comfort food in a relaxed atmosphere. They wanted to offer a menu filled with classic favorites,
+                     made with love and the best local ingredients.
+               </p>
+            </div>
+            <div class="about-image" data-aos="slide-left"  offset="300">
+                  <img src="img/hero.png" alt="">
+            </div>
+         </div>
+   </section>
+ <!-------------------------------------------------End of About us-------------------------------------------->
+
+
+ <!-------------------------------------------------Start Gallery----------------------------------------------->
+   <section class="g_mid" id="page-5">
+      <div class="gallery">
+         <div id="heading" data-aos="slide-up">------ &#8734; ------ OUR  PHOTO  GALLERY ------ &#8734; ------</div><br>
+         <div class="buttons" data-aos="slide-up">
+            <button type="button" class="btn-clicked">ALL</button>
+            <button type="button" data-btn="1">DRINKS</button>
+            <button type="button" data-btn="2">INDIAN FOOD</button>
+            <button type="button" data-btn="3">SNACKS</button>
+         </div>
+         <div class="grid-wrapper" loading="lazy" data-aos="fade-up">
+            <div class="pic all" >
+               <a href="img/about-1.jpg" ><img loading="lazy" src="img/about-1.jpg"></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/about-2.jpg" ><img loading="lazy" src="img/about-2.jpg" ></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/all1.jpg" ><img loading="lazy" loading="lazy" src="img/all1.jpg" ></a>
+            </div>
+            <div class="pic drinks" data-img="1">
+               <a href="img/drinks/drink1.jpg" ><img loading="lazy" src="img/drinks/drink1.jpg" ></a>
+            </div>  
+            <div class="pic all" >
+               <a href="img/all9.jpg" ><img  loading="lazy" src="img/all9.jpg" ></a>
+            </div> 
+            <div class="pic snack" data-img="3">
+                <a href="img/snack/snack2.jpg" ><img  loading="lazy" src="img/snack/snack2.jpg" ></a>
+            </div>
+            <div class="pic drinks" data-img="1">
+                <a href="img/drinks/drink4.jpg" ><img  loading="lazy" src="img/drinks/drink4.jpg" ></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/all2.jpg" ><img loading="lazy" src="img/all2.jpg" ></a>
+            </div>
+            <div class="pic snack" data-img="3">
+                <a href="img/snack/snack3.jpg" ><img  loading="lazy" src="img/snack/snack3.jpg" ></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/all3.jpg" ><img  loading="lazy" src="img/all3.jpg"></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/all5.jpg" ><img  loading="lazy" src="img/all5.jpg" ></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/all6.jpg" ><img  loading="lazy" src="img/all6.jpg" ></a>
+            </div>
+            <div class="pic drinks" data-img="1">
+            <a href="img/drinks/drink3.jpg" ><img  loading="lazy" src="img/drinks/drink3.jpg" ></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/all7.jpg" ><img  loading="lazy" src="img/all7.jpg" ></a>
+            </div>
+            <div class="pic all" >
+               <a href="img/about3.jpg" ><img  loading="lazy" src="img/about3.jpg" ></a>
+            </div>   
+            <div class="pic drinks" data-img="1">
+                <a href="img/drinks/drink2.jpg" ><img  loading="lazy" src="img/drinks/drink2.jpg" ></a>
+            </div>          
+            <div class="pic indian-f" data-img="2">
+                <a href="img/indianfood/ifood1.png" ><img  loading="lazy" src="img/indianfood/ifood1.png" ></a>
+            </div>
+            <div class="pic indian-f" data-img="2">
+               <a href="img/indianfood/ifood2.jpg" ><img  loading="lazy" src="img/indianfood/ifood2.jpg" ></a>
+            </div>
+            <div class="pic snack" data-img="3">
+               <a href="img/snack/snack1.jpg" ><img  loading="lazy" src="img/snack/snack1.jpg" ></a>
+            </div>    
+            <div class="pic indian-f" data-img="2">
+               <a href="img/indianfood/ifood3.jpg" ><img  loading="lazy" src="img/indianfood/ifood3.jpg" ></a>
+               </div>
+            <div class="pic snack" data-img="3">
+               <a href="img/snack/snack4.jpg" ><img  loading="lazy" src="img/snack/snack4.jpg" ></a>
+            </div>
+         </div>   
+      </div>
+   </section> 
+<!-------------------------------------------------Start Gallery----------------------------------------------->  
+
+
+<!-------------------------------------------------Start Thought--------------------------------------------> 
+   <section class="sec-4">
+         <div class="head">
+            <p>
+               " If you're not the one cooking, stay out of the way and compliment the chef. "
+            </p>
+            <span>Michael Strahan</span>
+         </div>
+   </section>
+   
+<!-------------------------------------------------Start Thought-------------------------------------------->
+
+
+
+ <!-------------------------------------------------Start Contact Us-------------------------------------------->
+   <section class="sec-3" id="page-6">
+      <p>------ &#8734; ------ For any question, request or reservation, please do not hesitate to contact us ------ &#8734; ------</p>
+         <div class="con-data">
+           <div class="con-detail" data-aos="slide-right">
+              <div class="con-img">
+               </div>
+               <div id="con-add">
+                  <h1>Contact Us</h1>
+                   <i class="fa fa-phone">&nbspTelephone : +91 7495793290</i><br><br>
+                   <i class="fa fa-whatsapp">&nbspWhatsApp : +91 7498598299</i><br><br>
+                   <i class='fa fa-envelope'>&nbspE-mail : gather2graze@gmail.com</i><br><br>
+               </div>
+               <div id="address">
+                 <a >1122 CA-41, Fish Camp, CA 93623, United States</a><br>
+                  <button type="button"><a href="https://www.google.com/maps/dir//Bellagio+Hotel+%26+Casino,+South+Las+Vegas+Boulevard,+Las+Vegas,+NV,+USA/@36.1130638,-115.2465476,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c8c430cb5147bd:0x82f2c7c5d9d10d84!2m2!1d-115.1765067!2d36.1129455">LOCATION MAP</a></button>
+               </div>
+               <div id="social">
+                   <a href=""><i class="fa fa-facebook"></i></a>
+                   <a href="https://www.instagram.com/bellagio"><i class="fa fa-instagram"></i></a>
+                   <a href=""><i class="fa fa-twitter"></i></a>
+               </div>
+           </div>
+           <div class="con-form" data-aos="slide-left">
+                 <form method="post"  id="sample_form"  name="conatact-form">
+                   <h1>Want Us To Contact You</h1><br>
+                  <div class="input-fields">
+                   <input type="text" name="name" id="f_name" placeholder="Name" autocomplete="off" class="form_data"><br>
+                   <span></span>
+                 </div>
+                  <div class="input-fields">
+                   <input type="email" name="email" id="E-mail" placeholder="E-Mail" class="form_data" >
+                   <input type="text" name="Phone" id="Num" placeholder="Phone" class="form_data" ><br>
+                 </div>
+                   <div class="input-fields msg">
+                     <textarea name="Message" id="Msg" row="20" col="6" placeholder="Message" class="form_data"></textarea><br>
+                   </div>
+                   <button type="button" id="submit" name="submit">SEND MESSAGE</button>
+                   <div id="error_msg"></div>
+                   <div id="sucess_msg"></div>
+                </form>
+           </div>   
+         </div>
+   <section>
+
+ <!------------------------------------------------End Contact Us-------------------------------------------->
+
+
+ <!-------------------------------------------------Start Foooter-------------------------------------------->    
+   <footer>
+   <!-- address -->
+   <div class="f_first">
+       <h3>Contact</h3>
+     <a><br>
+     Zip Code : 453522<br>
+     Phone : +91 7498598299<br>
+     E-mail : gather2graze@gmail.com</a>
+   </div>
+ 
+     <!-- menu -->
+         <div class="f_menu">
+             <h3>Menu</h3>
+                 <li>Home</li>
+                 <li>Book a Table</li>
+                 <li>Menu</li>
+                 <li>About Us</li>
+                 <li>Gallery</li>
+                 <li>Contact Us</li>
+         </div>
+ 
+       <!-- newsletter -->
+       <div class="news">
+         <form method="post" id="newsdata">
+           <h3>NEWSLETTER</h3><br>
+           <input type="text" placeholder="Name" name="name">
+           <input type="email" placeholder="E-Mail" name="e-mail">
+           <button type="button" id="sub" name="sub">Submit</button>
+           <div id="f_sucess"></div>
+         </form><br><br>
+         <div class="soc">
+           <div class="sm-head">Follow us on</div>
+           <div class="lin"></div>
+           <ul class="slist">
+             <li class="aitem">
+               <a href="#" class="soc-link"><i class="fa fa-facebook"></i><a>
+             </li>
+             <li class="aitem">
+             <a href="#" class="soc-link"><i class="fa fa-instagram"></i><a>
+             </li>
+             <li class="aitem">
+             <a href="#" class="soc-link"><i class="fa fa-twitter"></i><a>
+             </li>
+           </ul>
+         </div>
+       </div>
+       <div class="f_des"><a>@ 2018~2022 - Gather & Graze - All rights reserved | Developed by Studio 173.</a></div>
+ </footer>
+
+ <!-------------------------------------------------End Footer-------------------------------------------->
+     
+<script src="main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+   {
+      duration:1500,
+      offset:100
+   }
+  );
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
